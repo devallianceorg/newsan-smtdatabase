@@ -1,0 +1,23 @@
+C:\Users\mflores\Desktop\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\bin\Release\SMTDatabase.exe
+C:\Users\mflores\Desktop\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\bin\Release\SMTDatabase.pdb
+C:\Users\mflores\Desktop\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.Form1.resources
+C:\Users\mflores\Desktop\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.Properties.Resources.resources
+C:\Users\mflores\Desktop\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.csproj.GenerateResource.Cache
+C:\Users\mflores\Desktop\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.exe
+C:\Users\mflores\Desktop\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.pdb
+C:\Users\mflores\Desktop\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.csprojResolveAssemblyReference.cache
+C:\Users\Core\Desktop\VISUALSTUDIO\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.exe
+C:\Users\Core\Desktop\VISUALSTUDIO\VISUALSTUDIO\_FABRICA_\Aplicaciones_con_svn\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.pdb
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.exe
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.pdb
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.csprojResolveAssemblyReference.cache
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.Form1.resources
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.Properties.Resources.resources
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.csproj.GenerateResource.Cache
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\bin\Release\SMTDatabase.exe
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\bin\Release\SMTDatabase.pdb
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\bin\Release\MySql.Data.dll
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\bin\Release\SMTDatabase.exe.manifest
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\bin\Release\SMTDatabase.application
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.exe.manifest
+D:\Other Stuff\BKP ExCumpas\newsan\Newsan\SMTDatabase\SMTDatabase\obj\x86\Release\SMTDatabase.application

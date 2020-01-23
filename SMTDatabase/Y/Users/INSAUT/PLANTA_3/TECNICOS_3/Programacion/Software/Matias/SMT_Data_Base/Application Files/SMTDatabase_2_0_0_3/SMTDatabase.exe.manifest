@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SMTDatabase.exe" version="2.0.0.3" publicKeyToken="fd90f5f6e073c523" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SMTDatabase" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="SMTDatabase.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="457728">
+      <assemblyIdentity name="MySql.Data" version="6.9.8.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>B6Mze1CmSDAzJDIOQ/grJAi8tBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SMTDatabase.exe" size="34240">
+      <assemblyIdentity name="SMTDatabase" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>GIE3FnG14ZQw4rPJCa2gdu0YEXI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=PC-EDICION\instalador" issuerKeyHash="4b02b334c9bf40878a45e701e6be7aae513db589" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>jFvfeHg3iaSbCBo/2GmgkU76zKU=</DigestValue></Reference></SignedInfo><SignatureValue>JCGXXiosJlGEd/IcXrocJuX/WpWyFFGIGGZpNL6gcqhGbqWytAdfWuOZIdoYVG/cw7PUVMJDMxy0aNhVycPlcMY+PKRad5er6b/rih+aNjsc/3b0/QXkVlTfUq6G8X+9/lvViyWGjTv5hA2/I/Vs8a1us9XiVoQGgx30SwSOmb8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>t5gyI61MESVnO4OpnzpBrBUIXrXGKWpLhDIwgN54p8E+Y12MTlW5dgoGegulFoWGzsy8AzjHpbxYZiEt1xihnBJTcqH33XBOYxcSBIW6tfA7cQMev5088DQZqQn9fgJeHDqMdKUO1myKl5NRiCwB+TH1wwXNW4H64bazRf2MnSU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a5ccfa4e91a069d83f1a089ba489377878df5b8c" Description="" Url=""><as:assemblyIdentity name="SMTDatabase.exe" version="2.0.0.3" publicKeyToken="fd90f5f6e073c523" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PC-EDICION\instalador</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vMZ5qliURlppzqsqjEFAYpwWP/U=</DigestValue></Reference></SignedInfo><SignatureValue>Rfl2JdY+TDFHBAvzcfhSMO18fMJf/qPX8xo8YLVG8r+1fitpARJljvDr0jFM0JsEoOVobvicHNpRlG/0PKopaHnUUOsyrtAj73q/fdzydpIs/9pzpK7aGVp9h5YotJKkwTJQ6E60ft7F1/imO68mok5J1BiopUk6VEFrdJ9HTRE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>t5gyI61MESVnO4OpnzpBrBUIXrXGKWpLhDIwgN54p8E+Y12MTlW5dgoGegulFoWGzsy8AzjHpbxYZiEt1xihnBJTcqH33XBOYxcSBIW6tfA7cQMev5088DQZqQn9fgJeHDqMdKUO1myKl5NRiCwB+TH1wwXNW4H64bazRf2MnSU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQUitslAYKdIRM7Y8vlsRqTzANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAUABDAC0ARQBEAEkAQwBJAE8ATgBcAGkAbgBzAHQAYQBsAGEAZABvAHIwHhcNMTcxMDEwMTMzOTA0WhcNMTgxMDEwMTkzOTA0WjA1MTMwMQYDVQQDHioAUABDAC0ARQBEAEkAQwBJAE8ATgBcAGkAbgBzAHQAYQBsAGEAZABvAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALeYMiOtTBElZzuDqZ86QawVCF61xilqS4QyMIDeeKfBPmNdjE5VuXYKBnoLpRaFhs7MvAM4x6W8WGYhLdcYoZwSU3Kh991wTmMXEgSFurXwO3EDHr+dPPA0GakJ/X4CXhw6jHSlDtZsipeTUYgsAfkx9cMFzVuB+uG2s0X9jJ0lAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAq76w2ZNajBZgfk4G6wU9UmG6rcM0fIzdD7CM2RUM6/dXMKlbgfdOrRcUAH3e5UBjCYB6Yp7ObHDSl2kNk1YkWI1w/wPv5AccrkUmio/TmDpC45lmzUrOPrbUWKqYK/wPd/g7NrtQpuF3jDb7ZD3/IqGERJWTDt9h7UP1GChRVNI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
