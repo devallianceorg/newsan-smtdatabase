@@ -29,6 +29,7 @@ namespace SMTDatabase
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // Deprecar
             Mysql.server = "10.30.10.22";
             Mysql.database = "smtdatabase";
             Mysql.user = "root";

@@ -18,6 +18,7 @@ namespace SMTDatabase
         public static List<OP> DBOPList;
 
         public static void DownloadAll() {
+            // Deprecar
             string query = "select op,qty from `smtdatabase`.`orden_trabajo`";
             Mysql sql = new Mysql();
             DataTable dt = sql.Select(query);
@@ -113,6 +114,7 @@ namespace SMTDatabase
                         // OP no existe en DB, la agrego.
                         string add = "Modelo:" + theOP.modelo + " - Lote:" + theOP.lote + " - Panel: " + theOP.panel + " - OP:" + theOP.numero_op + " - QTY:" + theOP.qty;
 
+                        // Deprecar
                         Mysql sql = new Mysql();
                         string query = @"
                         INSERT INTO  `smtdatabase`.`orden_trabajo` (

@@ -13,6 +13,7 @@ namespace SMTDatabase
         public static int add(string modelo, string lote, string hash, string fecha_modificacion,string version)
         {
             int id = 0;
+            // Deprecar
             Mysql sql = new Mysql();
 
             string query = "INSERT INTO `ingenieria` (`id`, `modelo`, `lote`, `hash`,`fecha_modificacion`,`version`) VALUES (NULL, '" + modelo + "', '" + lote + "', '" + hash + "', '" + fecha_modificacion + "', '" + version+ "');";
@@ -34,6 +35,7 @@ namespace SMTDatabase
         // Borrar Lote
         public static bool del(int id)
         {
+            // Deprecar
             Mysql sql = new Mysql();
             string query = "delete from `ingenieria` where id = '" + id+ "' limit 1";
             bool rs = sql.Ejecutar(query);
@@ -50,6 +52,7 @@ namespace SMTDatabase
         // Agrego lista de ingenieria del lote al SQL
         public static bool addIngenieria(DataTable loteinfo, int id_ingenieria, string version)
         {
+            // Deprecar
             Mysql sql = new Mysql();
             string query = "INSERT INTO `lotes` (`id`, `id_ingenieria`, `id_ver`, `bom`, `descripcion`, `lote_version`, `item_num`, `logop`, `posicion`, `componente`, `descripcion_componente`, `cantidad`, `unidad_medida`, `asignacion`, `fecha`, `subinventario`, `localizador`, `tipo_material`, `kit`, `placa`, `sustituto`, `item_cygnus`, `item_type`) VALUES ";
             bool rs = false;
@@ -94,6 +97,7 @@ namespace SMTDatabase
         // Actualizo ultima fecha de modificacion
         public static void updateFecha(int id, string fecha_modificacion)
         {
+            // Deprecar
             Mysql sql = new Mysql();
             sql.Ejecutar("update ingenieria set fecha_modificacion = '" + fecha_modificacion + "' where id = '" + id + "' limit 1");
         } 

@@ -27,6 +27,7 @@ namespace SMTDatabase
 
         private void Initialize()
         {
+            // Deprecar
             string connectionString;
             connectionString = "SERVER=" + Mysql.server + ";" + "DATABASE=" + Mysql.database + ";" + "UID=" + Mysql.user + ";" + "PASSWORD=" + Mysql.password + ";";
             connection = new MySqlConnection(connectionString);

@@ -28,6 +28,7 @@ namespace SMTDatabase
             // Reseteo resultados SQL anteriores.
             Database = new List<Hash>();
 
+            // Deprecar
             Mysql sql = new Mysql();
             DataTable query = sql.Select("select id,modelo,lote,hash,DATE_FORMAT(fecha_modificacion,'%Y-%m-%d %H:%i:%s') as fecha_modificacion,version from ingenieria");
             if (sql.rows && !sql.mysql_error)

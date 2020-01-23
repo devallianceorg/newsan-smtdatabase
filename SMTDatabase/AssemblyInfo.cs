@@ -15,7 +15,7 @@ namespace SMTDatabase
                 System.Diagnostics.FileVersionInfo FVI = System.Diagnostics.FileVersionInfo.GetVersionInfo(ass.Location);
 
                 Version myVersion = GetPublishedVersion();
-                version = String.Format("Cogiscan Utilities V.{1:0}", FVI.ProductName, myVersion.ToString());
+                version = String.Format("SMTDataBase V.{1:0}", FVI.ProductName, myVersion.ToString());
             }
             else
             {
